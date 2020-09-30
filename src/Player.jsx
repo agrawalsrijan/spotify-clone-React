@@ -18,11 +18,11 @@ function Player({ spotify }) {
 
 
                 {/* Body */}
-                <Body/>
+                <Body spotify={spotify} />
                 
             </div>
             {/* Footer */}
-            <Footer/>
+            <Footer spotify={spotify}/>
         </div>
     )
 }
